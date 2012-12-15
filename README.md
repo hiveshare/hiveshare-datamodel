@@ -1,2 +1,2 @@
-hiveshare-datastore
+hiveshare-model
 ===================
