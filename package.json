@@ -1,0 +1,13 @@
+{
+  "name": "hiveshare-datastore",
+  "preferGlobal": "false",
+  "version": "0.0.1",
+  "author": "William Becker <wbecker@gmail.com>",
+  "dependencies": {
+    "underscore": "1.4.x"
+  },
+  "devDependencies": {
+    "vows"    :  "0.7.x"
+  }
+}
+
