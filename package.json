@@ -1,6 +1,6 @@
 {
-  "name": "hiveshare-datastore",
-  "preferGlobal": "false",
+  "name": "hiveshare-datamodel",
+  "preferGlobal": false,
   "version": "0.0.1",
   "author": "William Becker <wbecker@gmail.com>",
   "dependencies": {
@@ -9,6 +9,7 @@
   "devDependencies": {
     "vows"    :  "0.7.x"
   },
+  "main": "hiveshare-datamodel",
   "scripts": {
       "test": "vows --spec"
   }
