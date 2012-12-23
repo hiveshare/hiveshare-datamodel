@@ -1,11 +1,9 @@
-var vows = require("vows");
-var assert = require("assert");
+var buster = require("buster");
 
 var HiveShareObject = require("../lib/hiveshare-object");
 
-var suite = vows.describe('hiveshare-object');
 
-suite.addBatch({
+buster.testCase("HiveShare Object", {
 
   "Types": {
 
@@ -14,12 +12,11 @@ suite.addBatch({
       var o = new HiveShareObject();
       o.addType({id: 1});
       var types = o.getTypes();
-      assert.equal(types.length, 1);
-      assert.equal(types[0].id, 1);
+      assert.equals(types.length, 1);
+      assert.equals(types[0].id, 1);
 
     }
 
   }
 
 });
-suite["export"](module);
