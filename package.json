@@ -1,7 +1,7 @@
 {
   "name": "hiveshare-datamodel",
   "preferGlobal": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "William Becker <wbecker@gmail.com>",
   "dependencies": {
     "underscore": "1.4.x"
